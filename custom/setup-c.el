@@ -21,7 +21,10 @@
 
 (use-package cc-mode
   :init
-  (define-key c-mode-map  [(tab)] 'company-complete)
-  (define-key c++-mode-map  [(tab)] 'company-complete))
+  (define-key c-mode-map (kbd "<C-tab>") 'company-complete)
+  (define-key c++-mode-map (kbd "<C-tab>") 'company-complete)
+  (setq tab-width 4)
+  (setq-default indent-tabs-mode t)
+  (defvaralias 'c-basic-offset 'tab-width))
 
 (provide 'setup-c)
