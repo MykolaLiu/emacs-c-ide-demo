@@ -1,6 +1,3 @@
-(menu-bar-mode -1)
-(tool-bar-mode -1)
-
 (setq gc-cons-threshold 100000000)
 (setq inhibit-startup-message t)
 
@@ -16,6 +13,9 @@
 
 ;; set appearance of a tab that is represented by 4 spaces
 (setq-default tab-width 4)
+
+;; disable alarm bell
+(setq ring-bell-function 'ignore)
 
 ;; Compilation
 (global-set-key (kbd "<f5>") (lambda ()
