@@ -5,6 +5,6 @@
 (global-linum-mode t)
 
 ;; main theme
-(load-theme 'monokai t)
+(load-theme 'material t)
 
 (provide 'setup-appearance)
