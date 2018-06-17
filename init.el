@@ -25,6 +25,7 @@
 (require 'setup-editing)
 (require 'setup-c)
 (require 'setup-appearance)
+(require 'setup-python)
 
 ;; function-args
 ;; (require 'function-args)
