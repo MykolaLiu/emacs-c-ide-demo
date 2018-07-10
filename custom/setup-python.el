@@ -8,10 +8,10 @@
 ;; Use tabs ident by default
 (add-hook 'python-mode-hook
 	(lambda ()
-		(setq indent-tabs-mode t)
-		(setq py-indent-tabs-mode t)
-		;(setq indent-tabs-mode f)
-		;(setq py-indent-tabs-mode f)
+		;(setq indent-tabs-mode t)
+		;(setq py-indent-tabs-mode t)
+		(setq indent-tabs-mode f)
+		(setq py-indent-tabs-mode f)
 
 		(setq tab-width 4)
 		(setq python-indent-offset tab-width)
