@@ -17,5 +17,10 @@
 ;; load nyan mode
 (nyan-mode t)
 
+;; powerlin
+(require 'powerline)
+(powerline-default-theme)
+(setq powerline-arrow-shape 'curve)
+
 
 (provide 'setup-appearance)
