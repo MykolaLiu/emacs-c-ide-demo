@@ -26,6 +26,7 @@
 (require 'setup-c)
 (require 'setup-appearance)
 (require 'setup-python)
+(require 'setup-scala)
 
 ;; function-args
 ;; (require 'function-args)
@@ -43,7 +44,7 @@
  '(initial-frame-alist (quote ((fullscreen . maximized))))
  '(package-selected-packages
    (quote
-	(powerline zone-nyan zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu))))
+	(ensime powerline zone-nyan zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
